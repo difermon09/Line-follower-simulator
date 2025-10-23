@@ -1,4 +1,4 @@
-# Practica 4 — Line-following robot simulator
+#Line-following robot simulator
 
 A small PyQt6-based simulator that draws a warehouse and runs a line-following robot program. The robot reads three line sensors (left, front, right), executes a sequence of commands, and reports its direction and coordinates to a secondary status window.
 
