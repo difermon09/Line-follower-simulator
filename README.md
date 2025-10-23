@@ -67,7 +67,7 @@ Common commands:
 - main.py reads both text files and creates the main window.
 - main_win draws the lines and instantiates a Robot and a SecondaryWin.
 - Robot places three pixel sensors around its center and samples the rendered main window to know if each sensor is over a black line (`1`) or background (`0`).
-- A QTimer calls Robot.robot_move periodically to evaluate sensors and execute the next command in the program. 
+- A QTimer periodically calls Robot.robot_move to evaluate the sensors and execute the next command in the program when a junction is detected.
 - Robot emits status strings (`"<DIR> <X> <Y>"` or `Kill`) to update the secondary window and to stop on completion.
 
 ## Troubleshooting
